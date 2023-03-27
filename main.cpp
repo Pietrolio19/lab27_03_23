@@ -10,6 +10,6 @@ int main() {
     if (b.load(imgName))
         std::cout << "show image: " << imgName << std::endl;
     else
-        std::cerr << "image:" << imgName << " not readable." << std::endl;
+        std::cerr << "image: " << imgName << " not readable." << std::endl;
     return 0;
 }
